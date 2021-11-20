@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <title>Goggle Filter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+</head>
+
+<body style="background-image:url(https://cdn.pixabay.com/photo/2021/04/03/12/12/background-6147356_1280.jpg);">
+  <center>
+    <h3 class="btn btn-primary heading" style="font-family: 'Nanum Pen Script', cursive; font-size: 50px;">Goggle Filter WebApp
+      <hr>
+      <center>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+    <button onclick="take_snapshot()" class="btn btn-success" style="font-family: 'Nanum Pen Script', cursive; font-size: 20px;">Take Snapshot</button>
+  </h3><br><br>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div" style="font-family: 'Nanum Pen Script', cursive; font-size: 35px;">
+    Filter Styles
+    <div class="row">
+     <button class="btn btn-info" onclick="Change_glass_to_spectacle()"> <div class="column" style="font-size: 35px;">Spectacles <img src="goggle.png" width="80px" ></div></button>
+     <br><br>
+     <button class="btn btn-info" onclick="Change_glass_to_heart_goggle()"> <div class="column" style="font-size: 25px;">Heart Goggle <img src="Heart goggle.png" width="80px" ></div></button>
+     <br><br>
+     <button class="btn btn-info" onclick="Change_glass_to_sunglass()"> <div class="column" style="font-size: 35px;">Sunglasses <img src="Sun Glass.png" width="80px" ></div></button>
+     <br><br>
+     <button class="btn btn-info" onclick="Change_glass_to_oculus()"> <div class="column" style="font-size: 35px;">Oculus Rift <img src="Oculus Rift.png" width="100px" ></div></button>
+     <br><br>
+     <button class="btn btn-info" onclick="Change_glass_to_eyepatch()"> <div class="column" style="font-size: 35px;">Pirate Eye Patch <img src="Eye Patch.png" width="100px" ></div></button>
+    </div>
+    </div>
+  </center>
+<script src="main.js"></script>
+</body>
+
+</html>
+
+
